@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poopins",sans-serif;
+}
+.container{
+    background-image: url(https://i.pinimg.com/474x/3e/d0/30/3ed030d8b80b9dda39440d0f3f48139f.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-color: #c7333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-wrap: wrap;
+}
+
+.music{
+    background-color: rgb(33, 33, 175);
+    width: 450px;
+    margin-bottom:-4px;
+    padding: 30px 35px;
+text-align: center; 
+height: 460px; 
+border: 2px solid#0ef;
+box-shadow:0 0 4px solid#0ef;
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 30px;
+    
+}
+nav .circle{
+    width: 40px;
+    height:40px;
+    color:white;
+    background-color: rgb(90, 123, 205);
+    border-radius: 50%;
+    line-height: 40px;
+    box-shadow: 0 5 10px rgba(255,26,226,0.22);
+
+}
+
+.song-img{
+    width: 185px;
+    border-radius: 50%;
+    height: 200px;
+    border: 2px solid #0ef;
+    box-shadow: 0 5 10px #0ef(255, 26, 226, 0.22);
+margin-bottom: 3px;}
+.music h1{
+font-size: 20px;
+font-weight: 400px;
+margin-top: 10px;
+color: #0ef;
+margin-bottom: 3px;
+}
+
+
+.music p{
+    font-size:14px;
+    color:#0ef ;
+    margin: 1px;
+}
+
+#progress{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 6px;
+    background-color:blue ;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#progress::-webkit-slider-thumb{
+    -webkit-appearance: none;
+
+width: 20px;
+height: 20px;
+border-radius: 50%;
+border: 8px solid #0ef;;
+box-shadow: 2px 2px 2px soid#0ef;
+}
+
+
+
+
+.controls{
+display: fex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+
+.controls div{
+width: 40px;
+height: 40px;
+background: #0ef;
+border-radius: 50%;
+color: #351392;
+box-shadow: 0 0 10px;
+line-height: 50%;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+margin: 20px;
+}
+
+.controls div:nth-child(2){
+    color: white;
+    transform: scale(1.3);
+
+}
+
+.controls div:nth-child(2):hover{
+    box-shadow:none;
+
+}
+audio{
+    width: 280px;
+    height: 40px;
+}
+
+fa-solid{
+    font-weight: 900;
+    font-size: larger;
+}

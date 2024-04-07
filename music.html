@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music</title>
+    <link rel="stylesheet" href="music.css" />
+    <script
+      src="https://kit.fontawesome.com/b12855cd0c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="music">
+        <nav>
+          <div class="circle">
+            <i class="fa-solid fa-angle-left"></i>
+          </div>
+          <div class="circle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </nav>
+        <img
+          src="image/6d79874844a8bee3fa1993c37ba57d7d.jpg"
+          alt=""
+          class="song-img"
+        />
+        <h1>PillowTalk</h1>
+        <p>Zayn Malik ft. Gigi Hadid</p>
+        <audio  id="song">
+          <source
+            src="music/ytmp3free.cc_zayn-pillowtalk-youtubemp3free.org.mp3"
+            type="audio/mpeg"
+          />
+        </audio>
+        <input type="range" value="0" id="progress" />
+        <div class="controls">
+          <div>
+            <i class="fa-solid fa-backward " onclick="seekBackward()"></i>
+          </div>
+          <div>
+            <i class="fa-solid fa-play " id="ctrlIcon" onclick="pausePlay()"></i>
+          </div>
+          <div>
+            <i class="fa-solid fa-forward" onclick="seekForward()"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="music.js"></script>
+  </body>
+</html>
